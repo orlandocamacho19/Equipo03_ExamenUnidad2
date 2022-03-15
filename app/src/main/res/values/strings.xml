@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ExamenUnidad2</string>
+
+    <string name="bienvenidaInicio">¡Bienvenidos!</string>
+    <string name="descripcionInicio">Restaurante Mexicano</string>
+    <string name="botonInicio">Menú</string>
+</resources>

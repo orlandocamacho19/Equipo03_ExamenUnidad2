@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado_inicio"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo_sinfondo"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/guinda"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:text="@string/bienvenidaInicio"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/guinda"
+        android:fontFamily="sans-serif"
+        android:text="@string/descripcionInicio"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:backgroundt="@drawable/round_button"
+        android:backgroundTint="@color/verde"
+        android:text="@string/botonInicio"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+
+</LinearLayout>
