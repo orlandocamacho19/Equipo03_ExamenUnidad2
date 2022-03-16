@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degraded"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logosinfondo"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/cherry"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:text="@string/welcome"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/cherry"
+        android:fontFamily="sans-serif"
+        android:text="@string/description"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/orange"
+        app:cornerRadius="15dp"
+        android:text="@string/button"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</LinearLayout>
