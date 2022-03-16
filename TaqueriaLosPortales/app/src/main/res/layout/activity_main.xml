@@ -8,48 +8,54 @@
     android:background="@drawable/degraded"
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:layout_width="333dp"
+        android:layout_height="460dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginLeft="130dp"
+        android:src="@drawable/fondo"
+        android:rotation="-25"
+        android:scaleType="fitXY"/>
+
     <ImageView
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_gravity="center"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="-130dp"
         android:src="@drawable/logosinfondo"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:textSize="45sp"
-        android:layout_marginTop="0dp"
-        android:textColor="@color/cherry"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/dark_grey"
         android:fontFamily="sans-serif"
         android:textStyle="bold"
-        android:text="@string/welcome"
-        android:textAlignment="center"/>
+        android:text="@string/welcome" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold"
-        android:textColor="@color/cherry"
+        android:textSize="18sp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/grey"
         android:fontFamily="sans-serif"
-        android:text="@string/description"
-        android:textAlignment="center"
-        />
+        android:text="@string/description" />
 
-    <Button
-        android:id="@+id/btn_get_started"
-        android:layout_width="230dp"
+    <ImageButton
+        android:id="@+id/btn_begin"
+        android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="25dp"
-        android:backgroundTint="@color/orange"
-        app:cornerRadius="15dp"
-        android:text="@string/button"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        tools:ignore="TouchTargetSizeCheck" />
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="-80dp"
+        android:background="@drawable/roundedcorners"
+        android:backgroundTint="@color/dark_orange"
+        android:cropToPadding="true"
+        android:src="@drawable/ic_baseline_restaurant_menu_24"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </LinearLayout>

@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Taqueria Los Portales</string>
-    <string name="welcome">¡Bienvenidos!</string>
-    <string name="description">Restaurante Mexicano</string>
-    <string name="button">Menú</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="description">Auténtica comida mexicana en Wilmington, EE. UU.</string>
+    <string name="hello">¡Hola!</string>
+    <string name="question">¿Qué deseas comer hoy?</string>
+    <string name="tacos">Tacos</string>
+    <string name="tacosDescription">Los mejores tacos de la comida mexicana</string>
+    <string name="quantity">1</string>
 </resources>
